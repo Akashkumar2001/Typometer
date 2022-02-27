@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Typometer</title>
+</head>
+<body>
+    <h1 id="header">Test Your Pace 😎</h1>
+    <div class="container">
+        
+        <div class="counter">
+            <div class="timer">
+                <span id="counter_timer">Timer</span>
+                <div id="time_count"><span id="sec">00</span>:<span id="mili">00</span> </div>
+            </div>
+            <div class="word">
+                <span id="counter_word">Words</span>
+                <div id="word_count">0</div>
+            </div>
+            <div class="char">
+                <span id="counter_char">Characters</span>
+                <div id="char_count">0</div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="start">Start</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="text_area">
+            <textarea  id="text" cols="40" rows="15"></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
